@@ -12,7 +12,7 @@ Click [HERE](https://jasonfleischer.github.io/simple-log-kit-demo/) to see the d
 $ npm i simple-log-kit --save
 ```
 
-#### JS Usage
+#### Usage - Javascript
 ``` javascript
 const { log, logE, turnOffNonErrorLogs } = require("../node_modules/simple-log-kit/index")
 
