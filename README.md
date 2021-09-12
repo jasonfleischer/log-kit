@@ -4,7 +4,7 @@
 Simple and lightweight log kit 
 
 ## Screenshots
-![Screenshot](./screenshots/screen.png "Screenshot")
+![Screenshot](https://www.npmjs.com/package/simple-log-kit/screenshots/screen.png "Screenshot")
 
 ## Installation
 'npm i simple-log-kit --save'
