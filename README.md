@@ -4,8 +4,7 @@ A simple and lightweight log kit
 
 ![Screenshot](https://jasonfleischer.github.io/simple-log-kit-demo/screenshot/screen.png "Screenshot")
 
-#### Demo
-Click [HERE](https://jasonfleischer.github.io/simple-log-kit-demo/) to see the demo
+Click [**HERE**](https://jasonfleischer.github.io/simple-log-kit-demo/) to see the demo
 
 #### Installation
 ```bash
