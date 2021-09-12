@@ -5,7 +5,7 @@
 // log("normal message");
 // logE("error message");
 // turnOffNonErrorLogs();
-
+/*
 var LOG_NON_ERROR_MESSAGES = true;
 
 exports.log = (msg) => {
@@ -19,14 +19,12 @@ exports.logE = (msg) => {
 
 exports.turnOffNonErrorLogs = () => {
 	LOG_NON_ERROR_MESSAGES = false
-};
-
-
-
+};*/
 
 ////////
 
-const var log = {}
+var LOG_NON_ERROR_MESSAGES = true;
+const log = {}
 
 log.i = function(msg) {
 	if (LOG_NON_ERROR_MESSAGES)
