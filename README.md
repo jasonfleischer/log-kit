@@ -4,13 +4,15 @@ A simple and lightweight log kit
 
 ![Screenshot](https://jasonfleischer.github.io/simple-log-kit-demo/screenshot/screen.png "Screenshot")
 
-### Demo
+#### Demo
 Click [HERE](https://jasonfleischer.github.io/simple-log-kit-demo/) to see the demo
 
-### Installation
-'npm i simple-log-kit --save'
+#### Installation
+```bash
+$ npm i simple-log-kit --save
+```
 
-### JS Usage
+#### JS Usage
 ``` javascript
 const { log, logE, turnOffNonErrorLogs } = require("../node_modules/simple-log-kit/index")
 
