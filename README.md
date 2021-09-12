@@ -1,10 +1,10 @@
 ## simple-log-kit
 
-### Description
+#### Description
 Simple and lightweight log kit 
 
 ### Screenshot
-![Screenshot](https://www.npmjs.com/package/simple-log-kit/screenshots/screen.png "Screenshot")
+![Screenshot](https://jasonfleischer.github.io/simple-log-kit-demo/screenshots/screen.png "Screenshot")
 
 ### Demo
 Click [here](https://jasonfleischer.github.io/simple-log-kit-demo/) to see the demo
