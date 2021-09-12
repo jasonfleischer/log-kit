@@ -4,10 +4,7 @@
 Simple and lightweight log kit 
 
 ### Screenshot
-![Screenshot](https://jasonfleischer.github.io/simple-log-kit-demo/screenshots/screen.png "Screenshot")
-
-
-![test](https://raw.github.com/jasonfleischer/simple-log-kit-demo/master/screenshots/screen.png)
+![Screenshot](https://jasonfleischer.github.io/simple-log-kit-demo/screenshot/screen.png "Screenshot")
 
 ### Demo
 Click [here](https://jasonfleischer.github.io/simple-log-kit-demo/) to see the demo
