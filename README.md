@@ -3,8 +3,11 @@
 ## Description
 Simple and lightweight log kit 
 
-## Screenshots
+## Screenshot
 ![Screenshot](https://www.npmjs.com/package/simple-log-kit/screenshots/screen.png "Screenshot")
+
+## Demo
+Click [here](https://jasonfleischer.github.io/simple-log-kit-demo/) to see the demo
 
 ## Installation
 'npm i simple-log-kit --save'
