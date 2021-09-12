@@ -1,13 +1,11 @@
 ## simple-log-kit
 
-### Description
-Simple and lightweight log kit 
+A simple and lightweight log kit 
 
-### Screenshot
 ![Screenshot](https://jasonfleischer.github.io/simple-log-kit-demo/screenshot/screen.png "Screenshot")
 
 ### Demo
-Click [here](https://jasonfleischer.github.io/simple-log-kit-demo/) to see the demo
+Click [HERE](https://jasonfleischer.github.io/simple-log-kit-demo/) to see the demo
 
 ### Installation
 'npm i simple-log-kit --save'
