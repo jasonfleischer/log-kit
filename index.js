@@ -26,10 +26,17 @@ exports.turnOffNonErrorLogs = () => {
 
 ////////
 
-function isWDS() {
-	console.log("this is a test WDS");
+const var log = {}
+
+log.i = function(msg) {
+	if (LOG_NON_ERROR_MESSAGES)
+		console.log(msg);
 }
 
-//var simpleLogKit = require("simple-log-kit")
+log.e = function(msg) {
+	console.log("%c ERROR: " + msg, "background: red; color: white; display: block;");
+}
 
-module.exports = isWDS
+//var log = require("simple-log-kit")
+
+module.exports = log

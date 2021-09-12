@@ -6,7 +6,7 @@ A simple and lightweight log kit. Click [HERE](https://jasonfleischer.github.io/
 
 #### Installation
 ```bash
-$ npm i simple-log-kit --save
+$ npm i @jasonfleischer/log
 ```
 
 #### Usage

@@ -1,6 +1,6 @@
 {
-  "name": "@jasonfleischer/simple-log-kit",
-  "version": "1.0.3",
+  "name": "@jasonfleischer/log",
+  "version": "1.0.1",
   "description": "simple JS logging",
   "main": "index.js",
   "scripts": {
