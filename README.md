@@ -1,10 +1,10 @@
 ## simple-log-kit
 
-A simple and lightweight log kit 
+A simple and lightweight log kit. Click [**HERE**](https://jasonfleischer.github.io/simple-log-kit-demo/) to see the demo
 
 ![Screenshot](https://jasonfleischer.github.io/simple-log-kit-demo/screenshot/screen.png "Screenshot")
 
-Click [**HERE**](https://jasonfleischer.github.io/simple-log-kit-demo/) to see the demo
+
 
 #### Installation
 ```bash
