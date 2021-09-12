@@ -1,18 +1,22 @@
-# log-kit
+# simple-log-kit
 
 ## Description
-!!!package is under construction/develoment!!!
+Simple and lightweight log kit 
 
 ## Screenshots
+![Screenshot](./screenshots/screen.png "Sreenshot")
 
 ## Installation
-'npm i log-kit --save'
+'npm i simple-log-kit --save'
 
 ### JS Usage
+```
+const { log, logE, turnOffNonErrorLogs } = require("../node_modules/simple-log-kit/index")
 
-log('your message')
+log("normal message");
 
-logE('your error message')
+logE("error message");
 
-LOG_NON_ERROR_MESSAGES = false
+turnOffNonErrorLogs();
+```
 

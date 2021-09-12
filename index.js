@@ -1,3 +1,11 @@
+// Usage:
+
+// in JS (ex main.js):
+// const { log, logE, turnOffNonErrorLogs } = require("../node_modules/simple-log-kit/index")
+// log("normal message");
+// logE("error message");
+// turnOffNonErrorLogs();
+
 var LOG_NON_ERROR_MESSAGES = true;
 
 exports.log = (msg) => {
@@ -9,13 +17,6 @@ exports.logE = (msg) => {
 	console.log("%c ERROR: " + msg, "background: red; color: white; display: block;");
 };
 
-
-// common wrapper
-exports.log = {}
-log.e = function(){
-	console.log("%c ERROR: " + msg, "background: red; color: white; display: block;");
-}
-log.i = function(){
-	if (LOG_NON_ERROR_MESSAGES)
-		console.log(msg);
-}
+exports.turnOffNonErrorLogs = () => {
+	LOG_NON_ERROR_MESSAGES = false
+};
