@@ -24,17 +24,19 @@ exports.turnOffNonErrorLogs = () => {
 ////////
 
 var LOG_NON_ERROR_MESSAGES = true;
-const log = {}
+const log = {};
 
 log.i = function(msg) {
 	if (LOG_NON_ERROR_MESSAGES)
 		console.log(msg);
-}
+};
 
 log.e = function(msg) {
 	console.log("%c ERROR: " + msg, "background: red; color: white; display: block;");
-}
+};
 
-//var log = require("simple-log-kit")
+log.turnOffNonErrorLogs = function() {
+	LOG_NON_ERROR_MESSAGES = false;
+};
 
-module.exports = log
+module.exports = log;

@@ -11,12 +11,12 @@ $ npm i @jasonfleischer/log
 
 #### Usage
 ``` javascript
-const { log, logE, turnOffNonErrorLogs } = require("../node_modules/simple-log-kit/index")
+const log = require("@jasonfleischer/log")
 
-log("normal message");
+log.i("normal message");
 
-logE("error message");
+log.e("error message");
 
-turnOffNonErrorLogs();
+log.turnOffNonErrorLogs();
 ```
 
