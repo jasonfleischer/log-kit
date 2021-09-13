@@ -1,7 +1,7 @@
 {
   "name": "@jasonfleischer/log",
-  "version": "1.0.3",
-  "description": "simple JS logging",
+  "version": "1.0.4",
+  "description": "simple and lightweight logging",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,7 @@
   "keywords": [
     "log",
     "logger",
-    "kit",
+    "logging",
     "console"
   ],
   "author": {
